@@ -24,7 +24,7 @@ super();
 }
 
 public WebDriver driver;
-
+//update comment in forget password
 	@BeforeMethod
 	public void setup() {
 		driver=initializeBrowserAndOpenURL(prop.getProperty("browserName"));
