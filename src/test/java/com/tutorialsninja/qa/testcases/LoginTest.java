@@ -63,7 +63,7 @@ public void setup() {
 		Assert.assertTrue(loginPage.retrieveEmailPasswordNotMatchingText().contains(dataprop.getProperty("emailPasswordNoMatchWarning")));
 		
 	}
-	@Test(priority=3 )
+	@Test(priority=3 ,invocationCount=2)
 	public void verifyLoginWithInvalidEmailAndValidPassword() {
 		
 		/*LoginPage loginPage=new LoginPage(driver);
