@@ -20,7 +20,7 @@ AccountPage accountPage;
 	public LoginTest() {
 	super();
 	}
-//new update
+//new update comment
 public WebDriver driver;
 @BeforeMethod
 public void setup() {
