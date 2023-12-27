@@ -20,7 +20,7 @@ AccountPage accountPage;
 	public LoginTest() {
 	super();
 	}
-
+//new update comment
 public WebDriver driver;
 @BeforeMethod
 public void setup() {
@@ -48,7 +48,7 @@ public void setup() {
 	}
 	
 	
-	
+	//new line
 	@Test(priority =2)
 	public void verifyLoginWithInvalidCredentials() {
 		//LoginPage loginPage=new LoginPage(driver);
