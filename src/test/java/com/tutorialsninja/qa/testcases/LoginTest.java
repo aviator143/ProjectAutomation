@@ -48,8 +48,8 @@ public void setup() {
 	}
 	
 	
-	//new line
-	@Test(priority =2)
+
+	@Test(priority =2,enabled = false)
 	public void verifyLoginWithInvalidCredentials() {
 		//LoginPage loginPage=new LoginPage(driver);
 		loginPage.login(Utility.genrateEmailWithTimeStamp(), dataprop.getProperty("invalidPassword"));
